@@ -19,7 +19,7 @@ jobs:
 
       - name: Add upstream and sync
         run: |
-          git remote add upstream https://github.com/LibreProjects/LibreTV.git
+          git remote add upstream https://github.com/LibreSpark/LibreTV.git
           git fetch upstream
           git checkout main
           git merge upstream/main --allow-unrelated-histories -m "Auto-sync from upstream"
